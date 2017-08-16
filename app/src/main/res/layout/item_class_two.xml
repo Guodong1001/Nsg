@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/class2_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_user_order"
+        android:drawableLeft="@drawable/ic_normal_title_left"
+        android:drawableRight="@drawable/ic_normal_dot_left"
+        />
+
+    <com.bwie.dianshang.view.customer.MyGridView
+        android:id="@+id/class2_item_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:visibility="gone"
+        ></com.bwie.dianshang.view.customer.MyGridView>
+
+</LinearLayout>

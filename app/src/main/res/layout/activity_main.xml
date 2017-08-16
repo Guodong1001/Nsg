@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/main_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/main_home_radio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/home_select"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:tag="0"
+            android:text="@string/home"
+            android:textColor="@color/colorNavigation"
+            android:textSize="10dp"
+            tools:ignore="SpUsage"/>
+
+        <RadioButton
+            android:id="@+id/main_class_radio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/class_select"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:tag="1"
+            android:text="@string/class_class"
+            android:textSize="10dp"
+            tools:ignore="SpUsage"/>
+
+        <RadioButton
+            android:id="@+id/main_cart_radio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/cart_select"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:tag="2"
+            android:text="@string/cart"
+            android:textSize="10dp"
+            tools:ignore="SpUsage"/>
+
+        <RadioButton
+            android:id="@+id/main_user_radio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/user_select"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:tag="3"
+            android:text="@string/user"
+            android:textSize="10dp"
+            tools:ignore="SpUsage"/>
+    </RadioGroup>
+
+
+</LinearLayout>

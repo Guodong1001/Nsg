@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">男士购</string>
+    <string name="home">首页</string>
+    <string name="class_class">分类</string>
+    <string name="cart">购物车</string>
+    <string name="user">我的</string>
+
+
+    <string name="user_name">点击登录</string>
+    <string name="user_collection_goods">商品收藏</string>
+    <string name="user_collection_store">商品店铺</string>
+    <string name="user_collection_footprint">我的足迹</string>
+
+    <string name="user_all_order">全部订单</string>
+    <string name="user_order_wait_pay">未付款</string>
+    <string name="user_order_wait_drive">待发货</string>
+    <string name="user_order_wait_receipt">待收货</string>
+    <string name="user_order_wait_comment">待评价</string>
+    <string name="user_order_wait_refund">退款/货</string>
+
+    <string name="user_property">我的财产</string>
+    <string name="user_property_money">预存款</string>
+    <string name="user_property_card">充值卡</string>
+    <string name="user_property_vouchers">代金券</string>
+    <string name="user_property_red">红包</string>
+    <string name="user_property_integral">积分</string>
+
+    <string name="user_address">收货地址</string>
+    <string name="user_setting">系统设置</string>
+
+
+    <string name="register_user">用户注册</string>
+    <string name="register_username">请输入账号</string>
+    <string name="register_password">请输入密码</string>
+    <string name="register_password_again">请再次输入密码</string>
+    <string name="register_email">请输入邮箱地址</string>
+    <string name="register_btn">注册</string>
+
+
+    <string name="login_title_text">用户登录</string>
+    <string name="login_edit_username">请输入账号</string>
+    <string name="login_edit_password">请输入密码</string>
+    <string name="login_btn_login">登录</string>
+    <string name="login_btn_register">立即注册</string>
+    <string name="login_btn_find_pwd">找回密码</string>
+
+
+    <string name="personal_center">个人中心</string>
+    <string name="person_head_image">头像</string>
+    <string name="exit_login">退出登录</string>
+
+
+</resources>
